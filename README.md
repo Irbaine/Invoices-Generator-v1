@@ -1,4 +1,4 @@
-# Facture Generator
+# Invoices Generator
 
 This is a simple Python script that generates a Word document (docx) using the `docxtpl` library. The script reads data from a text file (`myInfo.txt`) and prompts the user to input additional information. The generated document is saved in the `Generated` directory.
 
@@ -6,9 +6,9 @@ This is a simple Python script that generates a Word document (docx) using the `
 
 To run this script, you need to have the following Python libraries installed:
 
-* `docxtpl`
-* `python-docx`
-* `python-docx-template`
+- `docxtpl`
+- `python-docx`
+- `python-docx-template`
 
 You can install these libraries using pip:
 
@@ -56,7 +56,16 @@ Each line should be in the format `KEY=VALUE`. The script will read the file and
 
 ## TODO
 
-* Invoce number incrementation
-* Languages
-* Convert docx to pdf
-* Upload to drive
+- Generate Pdf formats
+- Logo and Digital signature
+- Products details
+- Host and back up the generated documents
+- Activate switching languages
+- Increment the invoices number
+- Friendly UI instead of a CLI
+
+Advanced milestones:
+
+- Gathering the data and analyze it
+- List the winning products
+- Connect to a printers and print documents directly
